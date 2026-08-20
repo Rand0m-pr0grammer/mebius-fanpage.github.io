@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/space\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+aside{
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+    padding: left;
+}
+
+article{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+audio{
+    display: none;
+}
+
+.center-image{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width:900px) {
+    aside,article{
+        width: 100%;
+    }
+}
