@@ -49,5 +49,12 @@ img,video{
     article.aside{
         width: 100%;
         float: none;
+    article{
+        order: 1;
+    }
+
+    aside{
+        order: 2;
+    {
     }
 }
