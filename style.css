@@ -44,7 +44,7 @@ img,video{
 }
 
 @media screen and (max-width:600px) {
-    aside,article{
+    article.aside{
         width: 100%;
         float: none;
     }
